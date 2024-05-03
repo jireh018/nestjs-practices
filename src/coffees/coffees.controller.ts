@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class CoffeesController {
   @Get()
   findAll() {
-    return 'All my coffees';
+    return 'all my coffees';
   }
 }
